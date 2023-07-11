@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- -------------------------------------------------------- HEADER --> */
+.header_container {
+    max-width: 1920px;
+    height: 740px;
+    background-size: 100% 100%;
+    background-image: url(./assets/header_imges/Rectangle.png);
+}
+
+.header_title {
+    max-width: 735px;
+    padding-top: 193px;
+    margin: 0px 32% 0px;
+}
+
+.header_title h1 {
+    height: 170px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 95px;
+    color: #FFFFFF;
+    font-family: Oswald;
+    text-align: center;
+}
+
+.header_subtitle {
+    max-width: 735px;
+    padding-top: 35px;
+    margin: 0px 32% 0px;
+}
+
+.header_subtitle h2 {
+    height: 22px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Oswald;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header_show_bill {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_wrapper {
+    margin: 57px 130px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_cards_box {
+    width: 190px;
+    height: 185px;
+
+}
+
+.header_cards_titles {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 107px;
+    font-family: Oswald;
+    color: #F7654A;
+}
+
+.header_cards_elements {
+    /* margin-top: 25px; */
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    font-family: Oswald;
+    color: #000000;
+}
+
+.header_cards_text {
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: Oswald;
+    color: #999999;
+}
+
+/* <!-- -------------------------------------------------------- MAIN --> */
