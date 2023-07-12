@@ -46,3 +46,31 @@ function show_cards(array) {
   }
 }
 show_cards(header_cards);
+
+function card_generate(array) {}
+
+/* <!-- -------------------------------------------------------- MAIN --> */
+
+const project_images = document.querySelector(".images_items");
+const projects_content = document.querySelector(".projects_content_images");
+
+function contents() {
+  for (let i = 0; i < 3; i++) {
+    const box_content = document.createElement("div");
+    box_content.className = "box_container";
+    projects_content.append(box_content);
+
+    const img_content = document.createElement("img");
+    img_content.src = "./assets/main_images/content_img1.png";
+
+    const title_content = document.createElement("h3");
+    title_content.innerText = "Арена";
+
+    const text_content = document.createElement("p");
+    text_content.innerText =
+      "Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.";
+
+    box_content.append(img_content, title_content, text_content);
+  }
+}
+contents();

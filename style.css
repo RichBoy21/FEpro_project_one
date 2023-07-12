@@ -6,20 +6,16 @@
 
 /* <!-- -------------------------------------------------------- HEADER --> */
 .header_container {
-    max-width: 1920px;
-    height: 740px;
+    padding-top: 193px;
     background-size: 100% 100%;
     background-image: url(./assets/header_imges/Rectangle.png);
 }
 
-.header_title {
-    max-width: 735px;
-    padding-top: 193px;
-    margin: 0px 32% 0px;
-}
 
-.header_title h1 {
-    height: 170px;
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 735px;
     font-size: 64px;
     font-weight: 500;
     line-height: 95px;
@@ -29,13 +25,11 @@
 }
 
 .header_subtitle {
-    max-width: 735px;
     padding-top: 35px;
     margin: 0px 32% 0px;
 }
 
-.header_subtitle h2 {
-    height: 22px;
+.header_subtitle {
     font-size: 18px;
     font-weight: 400;
     font-family: Oswald;
@@ -49,7 +43,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    height: 300px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -78,7 +71,6 @@
 }
 
 .header_cards_elements {
-    /* margin-top: 25px; */
     text-align: center;
     font-size: 36px;
     font-weight: 500;
@@ -88,7 +80,6 @@
 }
 
 .header_cards_text {
-    /* margin-top: 10px; */
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -98,3 +89,100 @@
 }
 
 /* <!-- -------------------------------------------------------- MAIN --> */
+h2,
+h3 {
+    font-family: Oswald;
+    font-weight: 500;
+}
+
+.projects_content_images {
+    max-width: 1110px;
+    margin: 60px auto 0;
+    display: flex;
+    gap: 30px;
+}
+
+.box_container img {
+    width: 350px;
+    height: 380px;
+}
+
+.box_container h3 {
+    font-size: 24px;
+    line-height: 35px;
+    width: 55px;
+    padding-top: 15px;
+    border-top: 1px solid #F7654A;
+    border-width: 6px;
+    margin: 45px 0 0;
+}
+
+.box_container p {
+    max-width: 315px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #999999;
+}
+
+
+.content_title {
+    margin-top: 200px;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+
+
+
+
+.your_request {
+    width: 100%;
+    margin-top: 200px;
+    background-color: #F7654A;
+}
+
+.wrapper_request {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.request_titles {
+    padding: 30px 0 45px;
+}
+
+.request_titles h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.request_titles h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.btn_request {
+    width: 175px;
+    height: 50px;
+    margin: 85px 0 75px;
+    border: none;
+    background: #FFFFFF;
+}
+
+.btn_request a {
+    padding: 15px 45px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Oswald;
+    font-weight: 500;
+    color: #000000;
+}
