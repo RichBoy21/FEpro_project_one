@@ -64,4 +64,4 @@ function createCard(card) {
 const contacts_elements = document.querySelector(".contacts_items");
 
 create_elements(our_contacts);
-export { show_bill };
+export { show_bill, contacts_elements, projects_content };

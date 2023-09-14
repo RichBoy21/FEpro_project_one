@@ -1,4 +1,4 @@
-import { show_bill } from "../script";
+import { show_bill, projects_content, contacts_elements } from "../script.js";
 
 function show_cards(array) {
   for (let i = 0; i < array.length; i++) {
